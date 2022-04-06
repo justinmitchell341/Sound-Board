@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Iceland&family=Indie+Flower&family=Smooch&display=swap');
+body {
+  background: darkslategray;
+  );
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-repeat: none;
+}
+
+
+.beats{
+  font-family: "Amatic SC";
+  transform: rotate(-30deg);
+  margin-bottom: 100px;
+  color: mediumorchid;
+}
+.flows{
+  font-family: "Smooch";
+  transform: rotate(-30deg);
+   margin-bottom: 100px;
+  color: mediumslateblue;
+}
+.feelgood{
+  font-family: "Indie Flower";
+    line-height: 25px;
+  transform: rotate(-30deg);
+   margin-bottom: 100px;
+  color: darkseagreen;
+}
+.littlesad{
+  font-family: "Dancing Script";
+  transform: rotate(-30deg);
+   margin-bottom: 200px;
+  color: #c1c14b;
+}
+.videoAndAudio{
+  display: grid;
+  grid-template-columns: 200px 900px;
+  grid-template-rows: 400px 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  display: none;
+  width: 52vw;
+  height: 52vh;
+  margin-left: 100px;
+}
+
+.playing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: 100px 200px 200px 200px 200px;
+  grid-template-rows: 75px 75px 75px 75px 75px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-family: "Iceland";
+  font-size: 1.25em;
+}
+.key {
+  background: steelblue;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+kbd {
+  display: grid;
+  justify-content: center;
+  font-family: iceland;
+  font-size: 1.5em;
+}
+.stop{
+  grid-column: 3 / 5;
+ font-size: 1em;
+  justify-items: center;
+
+}
